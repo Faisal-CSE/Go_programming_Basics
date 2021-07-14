@@ -20,11 +20,14 @@ func main() {
 	num1, num2 = 2, 3
 	var result = num1 + num2
 
+	const PI__Val = 3.14
+
 	result__new := 6 //Means >> var result__new = 6 || create and assign a variable. This is short form
 
 	fmt.Println("Summation is: ")
 	fmt.Println(result)
 	fmt.Println(result__new)
+	fmt.Println(PI__Val)
 
 	fmt.Println("-------------------")
 
