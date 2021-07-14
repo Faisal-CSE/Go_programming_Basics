@@ -29,4 +29,14 @@ func main() {
 		}
 		fmt.Println("Serial is: ", arr__elements[i])
 	}
+	
+	//------------------2D Array---------------------
+	var twoD [2][3]int
+
+	for p := 0; p < 2; p++ {
+		for q := 0; q < 3; q++ {
+			twoD[p][q] = p + q
+		}
+	}
+	fmt.Println("2D Result : ", twoD)
 }
