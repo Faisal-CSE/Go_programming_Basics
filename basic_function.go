@@ -20,6 +20,14 @@ func calc(x, y int) (int, int) {
 	return output1, output2
 }
 
+//Another Way
+func calc1(x, y int) (output1, output2 int) {
+	output1 = x + y
+	output2 = x - y
+
+	return
+}
+
 func main() {
 	num1 := 5
 	num2 := 6
@@ -30,6 +38,6 @@ func main() {
 	result := add(num1, num2)
 	fmt.Println("The result is: ", result)
 
-	result1, result2 := calc(num3, num4)
+	result1, result2 := calc1(num3, num4)
 	fmt.Println("The result1 is: ", result1, " || The result2 is: ", result2)
 }
